@@ -59,6 +59,7 @@ max-width: 26px;
   outline: none;
   resize: none;
   height: 60px;
+  
 }
 .form{
   padding: 10px 30px;
@@ -78,11 +79,14 @@ max-width: 26px;
   background-color:#0d4d75 ;
 }
 
-.listaTweets{}
+.listaTweets{display: flex;
+  flex-flow: column-reverse nowrap;}
  .tweet {
    padding: 20px 30px;
    display: flex;
    align-items: flex-start;
+   
+   
  }
  .conteudo{
    margin-left: 15px;
@@ -106,4 +110,14 @@ max-width: 26px;
   margin-top: 15px;
   color: #333333;
   
+}
+
+.pic{
+  border-radius: 50%;
+  
+}
+.picfeed{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
